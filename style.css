@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.pic1{
+    width: 100%;
+    height: 100vh; 
+    background-image: url('IMG_96433436-1.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.pic1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.pic1 h2{
+    color: #EBFFFF;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    transition: 0.3s;
+}
+
+.int-links{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    padding-left: 3%;
+}
+
+.int-links a{
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 1.4rem;
+    color: white;
+    padding-right: 1%;
+    transition: 0.3s;
+}
+
+.int-links a:hover{
+    font-size: 1.6rem;
+}
+
+.pic1 h2:hover{
+    font-size: 4.0rem;
+}
+
+@media (max-width: 576px) {
+    .pic1{
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .pic1 h2{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .quote h1{
+        padding: 0% 5%;
+    }
+    
+    .int-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 45%;
+    }
+
+    .int-links a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2%;
+    }
+
+    .album-art{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .album-art img{
+        width: 240px;
+        height: 240px;
+        transition: 0.3s;
+        padding-top: 2%;
+    }
+    
+    .album-art img:hover{
+        width: 230px;
+        height: 230px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    }
+
+}
+
+.quote{
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.quote h1{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.quote h4{
+    font-weight: 400;
+}
+
+#about {
+    margin: 5%;
+    border: 2px solid black;
+    padding: 3%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#about h1{
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+
+#about p{
+    font-weight: 300;
+    font-size: medium;
+}
+
+th{
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: medium;
+    text-align: center;
+    padding: 1%;
+}
+
+td {
+    border:1px solid black;
+    font-weight: 300;
+    font-size: medium;
+    text-align: center;
+    padding: 1%;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+
+#table_info {
+    margin: 5%;
+    padding: 3%;
+}
+
+#table_info h1{
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+
+#hobbies {
+    margin: 5%;
+    padding: 3%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#hobbies h1{
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+
+#hobbies p{
+    font-weight: 300;
+    font-size: medium;
+}
+
+.top-five {
+    margin: 5%;
+    border: 2px solid black;
+    padding: 3%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);   
+}
+
+.top-five h1{
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+
+.top-five li{
+    font-weight: 300;
+    font-size: medium;
+    transition: 0.3s;
+}
+
+.top-five li:hover{
+    font-size: 25px;
+}
+
+.fav-albums{
+    margin: 5%;
+    border: 2px solid black;
+    padding: 5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);   
+}
+
+.fav-albums h1{
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+
+.album-art{
+    display: flex;
+    justify-content: space-around;
+}
+
+.album-art img{
+    width: 270px;
+    height: 270px;
+    transition: 0.3s;
+}
+
+.album-art img:hover{
+    width: 280px;
+    height: 280px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#contact{
+    margin: 5%;
+    border: 2px solid black;
+    padding: 3%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#contact h1{
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+
+#contact p{
+    font-weight: 300;
+    font-size: medium;
+}
+
+#piaza{
+    margin: 5%;
+    border: 2px solid black;
+    padding: 3%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#piaza h1{
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+
+
+#piaza p{
+    font-weight: 300;
+    font-size: medium;
+}
+
+.end-bar{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    border: 2px solid black;
+    padding: 1%;
+}
